@@ -142,3 +142,32 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.participants-list li {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.participants-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #1a237e;
+}
+
+.participants-heading {
+  color: #1a237e;
+  font-size: 0.95em;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
